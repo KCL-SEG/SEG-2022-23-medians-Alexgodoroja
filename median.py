@@ -9,7 +9,7 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-print(numbers)
+#print(numbers)
 if len(numbers)% 2 == 0:
     print(numbers[len(numbers)//2-1:(len(numbers)//2+1)])
 else:
